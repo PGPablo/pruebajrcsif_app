@@ -1,0 +1,57 @@
+.centrar_cards{
+  margin-left: 10%;
+  margin-right: 10%;
+  /* IMPORTANTE */
+  text-align: center;
+
+}
+
+.diseño_card{
+  background-color: yellow;
+  padding: 30px;
+  margin: 30px;
+  margin-left: 46px;
+  margin-right: 46px;
+
+  /* IMPORTANTE */
+  display: inline-block;
+  width: 18rem;
+  border: 0px !important;
+}
+
+/* usar */
+.estilo_letra_Raleway{
+  font-family: 'Raleway', sans-serif;
+}
+/* quiza usar */
+.estilo_letra_Baskervville{
+  font-family: 'Baskervville', serif;
+}
+/* usar en titulos */
+.estilo_letra_Cinzel{
+  font-family: 'Cinzel', serif;
+}
+/* usar */
+.estilo_letra_Dancing{
+  font-family: 'Dancing Script', cursive;
+}
+/* usar */
+.estilo_letra_Gruppo{
+  font-family: 'Gruppo', cursive;
+}
+/* usar */
+.estilo_letra_Sans{
+  font-family: 'Josefin Sans', sans-serif;
+}
+/* usar */
+.estilo_letra_Slab{
+  font-family: 'Josefin Slab', serif;
+}
+/* usar */
+.estilo_letra_Montserrat{
+  font-family: 'Montserrat', sans-serif;
+}
+/* usar */
+.estilo_letra_Bellefair{
+  font-family: 'Bellefair', serif;
+}

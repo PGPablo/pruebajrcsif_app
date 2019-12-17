@@ -1,0 +1,29 @@
+.iconAbout{
+  color: #FC6F23;
+}
+
+.fondoSeccion{
+  background-color: #ffcb87;
+}
+
+.fondoTitulo{
+  display: inline-flex;
+  background-color: #ffcb87;
+}
+
+.ancho40{
+  width: 35%;
+}
+.ancho60{
+  width: 55%;
+}
+
+.imgSeccion{
+  width: 100%;
+  height: 250px;
+}
+
+.imgCover{
+  width: 100%;
+  height: 100%;
+}

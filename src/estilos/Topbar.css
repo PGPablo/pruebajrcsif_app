@@ -1,0 +1,15 @@
+.color-face{
+  color: #2471A3;
+}
+
+.color-insta{
+  color: #8A0599;
+}
+
+.iconInsta:hover, .iconFace:hover{
+  color: #515A5A;
+}
+
+.borrar{
+  background-color: #6c757d;
+}
