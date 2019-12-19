@@ -1,15 +1,19 @@
-.color-face{
-  color: #2471A3;
+.color_barra{
+  opacity: 0.8;
 }
 
-.color-insta{
-  color: #8A0599;
+.contenido_central{
+  background-color: #FFFFFF !important;
 }
 
-.iconInsta:hover, .iconFace:hover{
-  color: #515A5A;
+.letras_logo{
+  color: #05172e !important;
 }
 
-.borrar{
-  background-color: #6c757d;
+.letras_menu{
+  color: #D4E6F1 !important;
+}
+
+.contenido_inicial{
+  background-color: #053c61;
 }

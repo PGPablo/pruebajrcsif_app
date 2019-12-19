@@ -8,7 +8,7 @@
 */
 
 import React from 'react'
-import {Card, Button}  from 'react-bootstrap'
+import {Card}  from 'react-bootstrap'
 
 import '../../estilos/Contenido.css'
 
@@ -17,53 +17,67 @@ import d2 from '../../assets/img/d2.jpg'
 import d3 from '../../assets/img/d3.jpg'
 
 const Cards_inicio = () => (
-  <div className="centrar_cards">
-    <div className="row center">
-      <Card className="diseño_card">
-        <Card.Img variant="top" src={d1} />
-        <Card.Body>
-          <Card.Title>Card Title</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of
-            the card's content.
-          </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
-        </Card.Body>
-      </Card>
-      <Card className="diseño_card">
-        <Card.Img variant="top" src={d2} />
-        <Card.Body>
-          <Card.Title>Card Title</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of
-            the card's content.
-          </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
-        </Card.Body>
-      </Card>
+
+  <div>
+    <div className="contenedor row color-letra estilo_letra_Gruppo">
+      
+      <div className="izquierda">
+        <Card className="diseño_card">
+          <Card.Img variant="top" src={d1} />
+          <Card.Body>
+            <Card.Title>Conocenos.</Card.Title>
+            <Card.Text>
+               Diana es la pesadilla de la que nunca voy a despertar.
+            </Card.Text>
+            <button type="button" className="btn btn-outline-info">Leer más</button>
+          </Card.Body>
+        </Card>
+      </div>
+
+      <div className="centro">
+        <Card className="diseño_card">
+          <Card.Img variant="top" src={d2} />
+          <Card.Body>
+            <Card.Title>Servicios.</Card.Title>
+            <Card.Text>
+               Diana es la pesadilla de la que nunca voy a despertar.
+            </Card.Text>
+            <button type="button" className="btn btn-outline-info">Leer más</button>
+          </Card.Body>
+        </Card>
+      </div>
+
+      <div className="derecha">
       <Card className="diseño_card">
         <Card.Img variant="top" src={d3} />
         <Card.Body>
-          <Card.Title>Card Title</Card.Title>
+          <Card.Title>Clientes.</Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of
-            the card's content.
+             Diana es la pesadilla de la que nunca voy a despertar.
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <button type="button" className="btn btn-outline-info">Leer más</button>
         </Card.Body>
       </Card>
-      <div>
-        <p className="estilo_letra_Dancing" >
-          The standard Lorem Ipsum passage, used since the 1500s
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-          laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-          non proident, sunt in culpa qui officia deserunt mollit anim id est laborumw."
-        </p>
       </div>
+
     </div>
+
+    <h3 className="estilo_letra_Raleway"> Diana es la pesadilla de la que nunca voy a despertar. </h3>
+    <h3 className="estilo_letra_Baskervville"> Diana es la pesadilla de la que nunca voy a despertar. </h3>
+    <h3 className="estilo_letra_Cinzel"> Diana es la pesadilla de la que nunca voy a despertar. </h3>
+    <h3 className="estilo_letra_Dancing"> Diana es la pesadilla de la que nunca voy a despertar. </h3>
+    <h3 className="estilo_letra_Gruppo"> Diana es la pesadilla de la que nunca voy a despertar. </h3>
+    <h3 className="estilo_letra_Sans"> Diana es la pesadilla de la que nunca voy a despertar. </h3>
+    <h3 className="estilo_letra_Slab"> Diana es la pesadilla de la que nunca voy a despertar. </h3>
+    <h3 className="estilo_letra_Montserrat"> Diana es la pesadilla de la que nunca voy a despertar. </h3>
+    <h3 className="estilo_letra_Bellefair"> Diana es la pesadilla de la que nunca voy a despertar. </h3>
+
   </div>
+
+
+
+
+
 
 )
 

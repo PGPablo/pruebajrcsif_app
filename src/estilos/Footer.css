@@ -1,12 +1,13 @@
 .estilo{
-  background-color: #96d9fe;
-  border-top: 1px solid #3bb2d7;
+  background-color: #212F3C;
+  border-top: 1px solid #ffffff;
   text-align: center;
   padding: 20px;
   left: 0;
   bottom: 0;
   height: 60px;
   width: 100%;
+  color: #FFFFFF;
 }
 
 .phantom{

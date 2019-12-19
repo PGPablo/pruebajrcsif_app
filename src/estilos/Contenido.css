@@ -6,6 +6,10 @@
 
 }
 
+.hr-color{
+  background-color: #FFFFFF;
+}
+
 .diseño_card{
   background-color: yellow;
   padding: 30px;
@@ -19,39 +23,31 @@
   border: 0px !important;
 }
 
-/* usar */
-.estilo_letra_Raleway{
-  font-family: 'Raleway', sans-serif;
+.contenedor{
+    text-align:center;
+    width: auto;
 }
-/* quiza usar */
-.estilo_letra_Baskervville{
-  font-family: 'Baskervville', serif;
+.izquierda{
+    float: left;
 }
-/* usar en titulos */
-.estilo_letra_Cinzel{
-  font-family: 'Cinzel', serif;
+.derecha{
+    float: right;
 }
-/* usar */
-.estilo_letra_Dancing{
-  font-family: 'Dancing Script', cursive;
+.centro{
+   display:inline-block
 }
-/* usar */
-.estilo_letra_Gruppo{
-  font-family: 'Gruppo', cursive;
-}
-/* usar */
-.estilo_letra_Sans{
-  font-family: 'Josefin Sans', sans-serif;
-}
-/* usar */
-.estilo_letra_Slab{
-  font-family: 'Josefin Slab', serif;
-}
-/* usar */
-.estilo_letra_Montserrat{
-  font-family: 'Montserrat', sans-serif;
-}
-/* usar */
-.estilo_letra_Bellefair{
-  font-family: 'Bellefair', serif;
+
+@media only screen and (max-width: 700px) {
+  .izquierda{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .derecha{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .centro{
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

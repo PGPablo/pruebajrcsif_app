@@ -7,30 +7,29 @@
   12/2019
 */
 
-  import React from "react";
-  import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-  import FontAwesome from 'react-fontawesome';
+import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-  import '../../estilos/Contactbar.css'
+import '../../estilos/Contactbar.css'
 
-    const Contbar = () => (
-              <nav class="navbar navbar-light bg-light">
-                <span class="navbar-text">
-                <FontAwesome
-                  className='rocket'
-                  name='rocket'
-                  size='2x'
-                  spin
-                  style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)',color:'lightblue' }}
-                />
-                <span className="badge bg-light-success badge-body mr-1 my-1">
-                  <FontAwesomeIcon icon={['fas', 'check']} />
-                </span>
-                  <FontAwesomeIcon icon={['fas', 'check']} /> 461 318 9423
-                  <FontAwesomeIcon icon={['fa', 'mail']} /> perez.pablo_jcjp@outlook.es
-                </span>
-              </nav>
-          )
+  const Contbar = () => (
+    <div className="contenedor color-letra estilo_letra_Gruppo">
+
+      <div className="izquierda">
+      </div>
+      <div className="centro">
+      </div>
+
+      <div className="derecha">
+        <span className="navbar-text">
+          <FontAwesomeIcon icon={['fas', 'envelope']} /> <b>info@jrcsifmexico.com</b> &nbsp;| &nbsp;
+        </span>
+        <span className="navbar-text">
+          <FontAwesomeIcon icon={['fas', 'phone']} /> <b>461 216 4359</b>
+        </span>
+      </div>
+    </div>
+  )
 
 
   export default Contbar;

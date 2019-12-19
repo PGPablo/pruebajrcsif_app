@@ -8,31 +8,30 @@
 */
 
 import React from 'react'
-import {Navbar, Nav, Form, FormControl, Button}  from 'react-bootstrap'
+import {Navbar, Nav}  from 'react-bootstrap'
 
 import '../../estilos/Topbar.css'
 
 const Topbar = () => (
-  <div className="sticky-top container-fluid bg-secondary text-white p-2 text-right text-xs">
 
-  <Navbar className="borrar" expand="lg">
+  <div className="sticky-top container-fluid text-white p-2 text-right text-xs color_barra">
 
-    <Navbar.Brand href="#home">
-      JRC SIF México S.C.
+  <Navbar className="contenido_inicial" expand="lg">
+    <Navbar.Brand href="#home" className="letras_logo">
+      <h4 className="estilo_letra_Montserrat"> JRC SIF México S.C. </h4>
     </Navbar.Brand>
 
-    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-
-    <Navbar.Collapse id="basic-navbar-nav" inline>
-      <Nav className="mr-auto">
-        <Nav.Link href="#home">Inicio</Nav.Link>
-        <Nav.Link href="#features">Nosotros</Nav.Link>
-        <Nav.Link href="#pricing">Nuestros servicios</Nav.Link>
-        <Nav.Link href="#pricing">Noticias</Nav.Link>
-        <Nav.Link href="#pricing">Clientes</Nav.Link>
+    <Navbar.Collapse>
+      <Nav className="ml-auto">
+        <Nav.Link href="/home" className="letras_menu estilo_letra_Gruppo">Inicio</Nav.Link>
+        <Nav.Link href="/about" className="letras_menu estilo_letra_Gruppo">Nosotros</Nav.Link>
+        <Nav.Link href="/services" className="letras_menu estilo_letra_Gruppo">Nuestros servicios</Nav.Link>
+        <Nav.Link href="/blog" className="letras_menu estilo_letra_Gruppo">Blog</Nav.Link>
+        <Nav.Link href="/clients" className="letras_menu estilo_letra_Gruppo">Clientes</Nav.Link>
       </Nav>
-
     </Navbar.Collapse>
+
+    <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
   </Navbar>
 

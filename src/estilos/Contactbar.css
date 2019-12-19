@@ -1,4 +1,18 @@
-.color-principal{
-  background-color: cyan;
-  height: 5%;
+.color-letra{
+  color: #496D98;
+}
+
+.contenedor{
+    text-align:center
+}
+.izquierda{
+    float: left;
+    margin-left: 5%;
+}
+.derecha{
+    float: right;
+    margin-right: 5%;
+}
+.centro{
+   display:inline-block
 }
