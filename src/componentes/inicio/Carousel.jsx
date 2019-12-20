@@ -12,11 +12,9 @@ import {Carousel, Button}  from 'react-bootstrap'
 
 import '../../estilos/Carousel.css'
 
-import c1 from '../../assets/img/c1.png'
-import c7 from '../../assets/img/c7.jpg'
-import c13 from '../../assets/img/c13.jpg'
-import c18 from '../../assets/img/c18.jpg'
-import c32 from '../../assets/img/c32.jpg'
+import c1 from '../../assets/img/c1.jpg'
+import c2 from '../../assets/img/c2.jpg'
+import c3 from '../../assets/img/c3.jpg'
 
 const Carousel_inicio = () => (
   <div className="centrar_carousel" >
@@ -31,31 +29,18 @@ const Carousel_inicio = () => (
 
       <Carousel.Item>
         <img className="d-block w-100 img_carousel"
-          src={c7}
+          src={c2}
           alt="Third slide"
         />
       </Carousel.Item>
 
       <Carousel.Item>
         <img className="d-block w-100 img_carousel"
-          src={c13}
+          src={c3}
           alt="Third slide"
         />
       </Carousel.Item>
 
-      <Carousel.Item>
-        <img className="d-block w-100 img_carousel"
-          src={c18}
-          alt="Third slide"
-        />
-      </Carousel.Item>
-
-      <Carousel.Item>
-        <img className="d-block w-100 img_carousel"
-          src={c32}
-          alt="Third slide"
-        />
-      </Carousel.Item>
 
     </Carousel>
   </div>

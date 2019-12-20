@@ -1,40 +1,75 @@
 // LIBS
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {Form, Button, Table}  from 'react-bootstrap'
 
 // ASSETS
 import '../../estilos/Blog.css'
 
 const Blog = () => (
   <div className="container border shadow mt-4">
-    <form className="login100-form validate-form">
-      <span className="login100-form-title p-b-59">
-        Sign Up
-      </span>
+    <Form>
+      <Form.Group controlId="formGroupEmail">
+        <Form.Label>Correo electronico</Form.Label>
+        <Form.Control type="email" placeholder="Enter email" />
+      </Form.Group>
+      <Form.Group controlId="formGroupPassword">
+        <Form.Label>Contraseña</Form.Label>
+        <Form.Control type="password" placeholder="Password" />
+      </Form.Group>
+      <Button variant="primary" type="submit">
+      Submit
+      </Button>
+    </Form>
 
-      <div className="wrap-input100 validate-input" data-validate="Username is required">
-        <span className="label-input100">Username</span>
-        <input className="input100" type="text" name="username" placeholder="Username..." />
-        <span className="focus-input100"></span>
-      </div>
+    <hr /><br /><br /><br />
 
-      <div className="wrap-input100 validate-input" data-validate = "Password is required">
-        <span className="label-input100">Password</span>
-        <input className="input100" type="text" name="pass" placeholder="*************" />
-        <span className="focus-input100"></span>
-      </div>
-
-      <div className="container-login100-form-btn">
-        <div className="wrap-login100-form-btn">
-          <div className="login100-form-bgbtn">
-          </div>
-          <button className="login100-form-btn">
-            Sign Up
-          </button>
-        </div>
-      </div>
-
-    </form>
+    <h2> Bienvenido Pablo Pérez </h2>
+    <h4>Aqui tienes tus documentos </h4>
+    <Table responsive>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Nombre del archivo</th>
+          <th>Tipo de archivo</th>
+          <th>Fecha de subida</th>
+          <th>Cualquier otra cosa</th>
+          <th>Descarga</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td><Button variant="info" type="submit">
+          Descargar
+          </Button></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td><Button variant="info" type="submit">
+          Descargar
+          </Button></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td><Button variant="info" type="submit">
+          Descargar
+          </Button></td>
+        </tr>
+      </tbody>
+    </Table>
   </div>
 )
 

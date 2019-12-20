@@ -14,6 +14,22 @@
   color: #D4E6F1 !important;
 }
 
+.letras_menu_1:hover{
+  color: #efa0f2 !important;
+}
+.letras_menu_2:hover{
+  color: #efa0f2 !important;
+}
+.letras_menu_3:hover{
+  color: #efa0f2 !important;
+}
+.letras_menu_4:hover{
+  color: #efa0f2 !important;
+}
+.letras_menu_5:hover{
+  color: #efa0f2 !important;
+}
+
 .contenido_inicial{
-  background-color: #053c61;
+  background-color: #135079;
 }

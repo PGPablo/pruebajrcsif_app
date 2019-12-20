@@ -3,12 +3,5 @@
 }
 
 .color_interno_jumbo{
-  background: rgba(143,2,34,1) !important;
-background: -moz-linear-gradient(left, rgba(143,2,34,1) 0%, rgba(143,2,34,1) 12%, rgba(169,3,41,1) 12%, rgba(169,3,41,1) 12%, rgba(143,2,34,1) 38%, rgba(169,3,41,1) 38%, rgba(109,0,25,1) 39%, rgba(109,0,25,1) 100%) !important;
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(143,2,34,1)), color-stop(12%, rgba(143,2,34,1)), color-stop(12%, rgba(169,3,41,1)), color-stop(12%, rgba(169,3,41,1)), color-stop(38%, rgba(143,2,34,1)), color-stop(38%, rgba(169,3,41,1)), color-stop(39%, rgba(109,0,25,1)), color-stop(100%, rgba(109,0,25,1))) !important;
-background: -webkit-linear-gradient(left, rgba(143,2,34,1) 0%, rgba(143,2,34,1) 12%, rgba(169,3,41,1) 12%, rgba(169,3,41,1) 12%, rgba(143,2,34,1) 38%, rgba(169,3,41,1) 38%, rgba(109,0,25,1) 39%, rgba(109,0,25,1) 100%) !important;
-background: -o-linear-gradient(left, rgba(143,2,34,1) 0%, rgba(143,2,34,1) 12%, rgba(169,3,41,1) 12%, rgba(169,3,41,1) 12%, rgba(143,2,34,1) 38%, rgba(169,3,41,1) 38%, rgba(109,0,25,1) 39%, rgba(109,0,25,1) 100%) !important;
-background: -ms-linear-gradient(left, rgba(143,2,34,1) 0%, rgba(143,2,34,1) 12%, rgba(169,3,41,1) 12%, rgba(169,3,41,1) 12%, rgba(143,2,34,1) 38%, rgba(169,3,41,1) 38%, rgba(109,0,25,1) 39%, rgba(109,0,25,1) 100%) !important;
-background: linear-gradient(to right, rgba(143,2,34,1) 0%, rgba(143,2,34,1) 12%, rgba(169,3,41,1) 12%, rgba(169,3,41,1) 12%, rgba(143,2,34,1) 38%, rgba(169,3,41,1) 38%, rgba(109,0,25,1) 39%, rgba(109,0,25,1) 100%) !important;
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8f0222', endColorstr='#6d0019', GradientType=1 ) !important;
+  background-color: #FFFFFF;
 }

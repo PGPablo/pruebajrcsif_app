@@ -1,3 +1,151 @@
-.color_icono{
-    color: rgb(49, 31, 57);
+.to-animate-1{
+  text-align: center;
+}
+.to-animate-1:hover{
+  background-image: url('../assets/img/d1.jpg') ;
+  background-size: 100% 100%;
+  color: #FFFFFF;
+  text-align: center;
+  opacity: 1;
+}
+.to-animate-1{
+  transition-duration: 0.8s;
+}
+
+
+
+.to-animate-2{
+  text-align: center;
+}
+.to-animate-2:hover{
+  background-image: url('../assets/img/d1.jpg') ;
+  background-size: 100% 100%;
+  color: #FFFFFF;
+  text-align: center;
+  opacity: 1;
+}
+.to-animate-2{
+  transition-duration: 0.8s;
+}
+
+
+
+.to-animate-3{
+  text-align: center;
+}
+.to-animate-3:hover{
+  background-image: url('../assets/img/d1.jpg') ;
+  background-size: 100% 100%;
+  color: #FFFFFF;
+  text-align: center;
+  opacity: 1;
+}
+.to-animate-3{
+  transition-duration: 0.8s;
+}
+
+
+
+.to-animate-4{
+  text-align: center;
+}
+.to-animate-4:hover{
+  background-image: url('../assets/img/d1.jpg') ;
+  background-size: 100% 100%;
+  color: #FFFFFF;
+  text-align: center;
+  opacity: 1;
+}
+.to-animate-4{
+  transition-duration: 0.8s;
+}
+
+
+
+.to-animate-5{
+  text-align: center;
+}
+.to-animate-5:hover{
+  background-image: url('../assets/img/d1.jpg') ;
+  background-size: 100% 100%;
+  color: #FFFFFF;
+  text-align: center;
+  opacity: 1;
+}
+.to-animate-5{
+  transition-duration: 0.8s;
+}
+
+
+
+.to-animate-6{
+  text-align: center;
+}
+.to-animate-6:hover{
+  background-image: url('../assets/img/d1.jpg') ;
+  background-size: 100% 100%;
+  color: #FFFFFF;
+  text-align: center;
+  opacity: 1;
+}
+.to-animate-6{
+  transition-duration: 0.8s;
+}
+
+
+
+.to-animate-7{
+  text-align: center;
+}
+.to-animate-7:hover{
+  background-image: url('../assets/img/d1.jpg') ;
+  background-size: 100% 100%;
+  color: #FFFFFF;
+  text-align: center;
+  opacity: 1;
+}
+.to-animate-7{
+  transition-duration: 0.8s;
+}
+
+
+
+.to-animate-8{
+  text-align: center;
+}
+.to-animate-8:hover{
+  background-image: url('../assets/img/d1.jpg') ;
+  background-size: 100% 100%;
+  color: #FFFFFF;
+  text-align: center;
+  opacity: 1;
+}
+.to-animate-8{
+  transition-duration: 0.8s;
+}
+
+
+
+.to-animate-9{
+  text-align: center;
+}
+.to-animate-9:hover{
+  background-image: url('../assets/img/d1.jpg') ;
+  background-size: 100% 100%;
+  color: #FFFFFF;
+  text-align: center;
+  opacity: 1;
+}
+.to-animate-9{
+  transition-duration: 0.8s;
+}
+
+
+.interlineado{
+  margin-bottom: 5%;
+  padding-bottom: 3%;
+}
+
+.estilo_boton{
+  margin-bottom: 2%;
 }

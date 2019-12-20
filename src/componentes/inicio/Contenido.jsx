@@ -20,7 +20,7 @@ const Cards_inicio = () => (
 
   <div>
     <div className="contenedor row color-letra estilo_letra_Gruppo">
-      
+
       <div className="izquierda">
         <Card className="diseño_card">
           <Card.Img variant="top" src={d1} />
@@ -59,7 +59,6 @@ const Cards_inicio = () => (
         </Card.Body>
       </Card>
       </div>
-
     </div>
 
     <h3 className="estilo_letra_Raleway"> Diana es la pesadilla de la que nunca voy a despertar. </h3>
@@ -71,6 +70,8 @@ const Cards_inicio = () => (
     <h3 className="estilo_letra_Slab"> Diana es la pesadilla de la que nunca voy a despertar. </h3>
     <h3 className="estilo_letra_Montserrat"> Diana es la pesadilla de la que nunca voy a despertar. </h3>
     <h3 className="estilo_letra_Bellefair"> Diana es la pesadilla de la que nunca voy a despertar. </h3>
+    <h3 className="estilo_letra_Scope"> Diana es la pesadilla de la que nunca voy a despertar. </h3>
+    <h3 className="estilo_letra_Poiret"> Diana es la pesadilla de la que nunca voy a despertar. </h3>
 
   </div>
 
