@@ -1,0 +1,9 @@
+.boton_centrado{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.boton_alin{
+  float: inline;
+}

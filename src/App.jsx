@@ -9,6 +9,7 @@ import Home from './componentes/inicio/Cont_inicio';
 import About from './componentes/About';
 import Services from './componentes/Services';
 import Blog from './componentes/blog/blog';
+import Contact from './componentes/contact/Contact'
 import Clients from './componentes/clients/Clients';
 
 
@@ -36,6 +37,7 @@ class App extends Component {
             <Route path="/about" component={About}/>
             <Route path="/services" component={Services}/>
             <Route path="/blog" component={Blog}/>
+            <Route path="/contact" component={Contact}/>
             <Route path="/clients" component={Clients}/>
 
           </Router>

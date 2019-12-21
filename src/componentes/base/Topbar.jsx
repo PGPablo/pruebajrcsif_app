@@ -27,7 +27,8 @@ const Topbar = () => (
         <Nav.Link href="/about" className="letras_menu estilo_letra_Gruppo letras_menu_2">Nosotros</Nav.Link>
         <Nav.Link href="/services" className="letras_menu estilo_letra_Gruppo letras_menu_3">Nuestros servicios</Nav.Link>
         <Nav.Link href="/blog" className="letras_menu estilo_letra_Gruppo letras_menu_4">Blog</Nav.Link>
-        <Nav.Link href="/clients" className="letras_menu estilo_letra_Gruppo letras_menu_5">Clientes</Nav.Link>
+        <Nav.Link href="/contact" className="letras_menu estilo_letra_Gruppo letras_menu_5">Contacto</Nav.Link>
+        <Nav.Link href="/clients" className="letras_menu estilo_letra_Gruppo letras_menu_6">Clientes</Nav.Link>
       </Nav>
     </Navbar.Collapse>
 
