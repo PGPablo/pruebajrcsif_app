@@ -43,7 +43,7 @@ const Blog = () => (
 
         <Form.Group as={Col} controlId="formGridCity">
           <Form.Label className="estilo_letra_Gruppo">Télefono</Form.Label>
-          <Form.Control placeholder="461 123 4567" />
+          <Form.Control className="estilo_letra_Gruppo" placeholder="461 123 4567" />
         </Form.Group>
 
       </Form.Row>
