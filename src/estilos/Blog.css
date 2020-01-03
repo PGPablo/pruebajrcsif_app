@@ -1,7 +1,46 @@
 .posicion_jumbo{
-  margin-top: 5%;
 }
 
 .color_interno_jumbo{
   background-color: #FFFFFF;
+}
+
+.borde_acordion{
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.sin_borders{
+  border-color: rgba(221, 11, 230, 0);
+  border-radius: 0;
+}
+
+.estilo_card{
+  background-color: rgb(255, 255, 255) !important;
+  border-color: rgba(213, 218, 48, 0) !important;
+  color: rgb(24, 83, 131);
+}
+
+.estilo_card:hover{
+  background-color: rgb(24, 83, 131) !important;
+  color: #ffffff !important;
+}
+
+.card_acordion{
+  background-color: rgb(255, 255, 255) !important;
+  color: rgb(0, 0, 0) !important;
+  text-align: center;
+  border-color: rgba(245, 77, 53, 0)
+}
+
+.cuerpo_card_acordion{
+  color: rgb(0, 0, 0);
+}
+
+
+@media only screen and (max-width: 700px) {
+  .borde_acordion{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
 }

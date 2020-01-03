@@ -37,6 +37,40 @@
    display:inline-block
 }
 
+.card_margen{
+   margin: 5%;
+}
+
+.tamaño_acordion{
+   width: 100%;
+}
+
+.titulo_acordion{
+  text-align: center;
+  color: rgb(47, 27, 64);
+  opacity: 0.4;
+}
+
+.img_acordion_1{
+  background-image: url("../assets/img/g2.png");
+  background-size: 100% 100%;
+  height: 175px;
+}
+.img_acordion_2{
+  background-image: url("../assets/img/g5.png");
+  background-size: 100% 100%;
+  height: 175px;
+}
+
+.boton_acordion{
+  color: rgb(2, 204, 235) !important;
+}
+
+.boton_acordion:hover{
+  background-color: rgba(50, 208, 214, 0.81);
+  color: rgb(255, 255, 255) !important;
+}
+
 @media only screen and (max-width: 700px) {
   .izquierda{
     margin-left: auto;

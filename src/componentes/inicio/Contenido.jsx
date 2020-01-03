@@ -8,7 +8,7 @@
 */
 
 import React from 'react'
-import {Card}  from 'react-bootstrap'
+import {Card, Accordion, Jumbotron, Container, Button}  from 'react-bootstrap'
 
 import '../../estilos/Contenido.css'
 
@@ -61,17 +61,31 @@ const Cards_inicio = () => (
       </div>
     </div>
 
-    <h3 className="estilo_letra_Raleway"> Diana es la pesadilla de la que nunca voy a despertar. </h3>
-    <h3 className="estilo_letra_Baskervville"> Diana es la pesadilla de la que nunca voy a despertar. </h3>
-    <h3 className="estilo_letra_Cinzel"> Diana es la pesadilla de la que nunca voy a despertar. </h3>
-    <h3 className="estilo_letra_Dancing"> Diana es la pesadilla de la que nunca voy a despertar. </h3>
-    <h3 className="estilo_letra_Gruppo"> Diana es la pesadilla de la que nunca voy a despertar. </h3>
-    <h3 className="estilo_letra_Sans"> Diana es la pesadilla de la que nunca voy a despertar. </h3>
-    <h3 className="estilo_letra_Slab"> Diana es la pesadilla de la que nunca voy a despertar. </h3>
-    <h3 className="estilo_letra_Montserrat"> Diana es la pesadilla de la que nunca voy a despertar. </h3>
-    <h3 className="estilo_letra_Bellefair"> Diana es la pesadilla de la que nunca voy a despertar. </h3>
-    <h3 className="estilo_letra_Scope"> Diana es la pesadilla de la que nunca voy a despertar. </h3>
-    <h3 className="estilo_letra_Poiret"> Diana es la pesadilla de la que nunca voy a despertar. </h3>
+
+
+
+    <Accordion defaultActiveKey="0" className="tamaño_acordion">
+      <Card className="card_margen">
+        <Card.Header className="img_acordion_1">
+          <Accordion.Toggle as={Button} variant="link" eventKey="0" className="boton_acordion estilo_letra_Cinzel">
+            Click aquí!
+          </Accordion.Toggle>
+        </Card.Header>
+        <Accordion.Collapse eventKey="0">
+          <Card.Body className="estilo_letra_Gruppo">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</Card.Body>
+        </Accordion.Collapse>
+      </Card>
+      <Card className="card_margen">
+        <Card.Header className="img_acordion_2">
+          <Accordion.Toggle as={Button} variant="link" eventKey="1" className="boton_acordion estilo_letra_Cinzel">
+            Click aquí!
+          </Accordion.Toggle>
+        </Card.Header>
+        <Accordion.Collapse eventKey="1">
+        <Card.Body className="estilo_letra_Gruppo">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</Card.Body>
+        </Accordion.Collapse>
+      </Card>
+    </Accordion>
 
   </div>
 

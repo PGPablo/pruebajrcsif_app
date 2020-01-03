@@ -24,18 +24,18 @@ const Blog = () => (
 
       <Form.Group controlId="formGridAddress1">
         <Form.Label className="estilo_letra_Gruppo">Dirección</Form.Label>
-        <Form.Control placeholder="1234 Main St (información no requerida)" />
+        <Form.Control className="estilo_letra_Gruppo" placeholder="1234 Main St (información no requerida)" />
       </Form.Group>
 
       <Form.Row>
         <Form.Group as={Col} controlId="formGridCity">
           <Form.Label className="estilo_letra_Gruppo">Ciudad</Form.Label>
-          <Form.Control placeholder="Celaya"/>
+          <Form.Control className="estilo_letra_Gruppo" placeholder="Celaya"/>
         </Form.Group>
 
         <Form.Group as={Col} controlId="formGridState">
           <Form.Label className="estilo_letra_Gruppo">Estado</Form.Label>
-          <Form.Control as="select">
+          <Form.Control className="estilo_letra_Gruppo" as="select">
             <option>Guanajuato...</option>
             <option>...</option>
           </Form.Control>
@@ -46,6 +46,16 @@ const Blog = () => (
           <Form.Control className="estilo_letra_Gruppo" placeholder="461 123 4567" />
         </Form.Group>
 
+      </Form.Row>
+
+      <Form.Row>
+        <Form.Group as={Col} controlId="formGridService">
+          <Form.Label className="estilo_letra_Gruppo">¿En qué servicio estas intersado?</Form.Label>
+          <Form.Control className="estilo_letra_Gruppo" as="select">
+            <option>Servicio 1</option>
+            <option>Servicio 2</option>
+          </Form.Control>
+        </Form.Group>
       </Form.Row>
 
       <Form.Row className="boton_centrado">
