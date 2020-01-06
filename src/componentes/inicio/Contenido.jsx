@@ -27,7 +27,7 @@ const Cards_inicio = () => (
           <Card.Body>
             <Card.Title>Conocenos.</Card.Title>
             <Card.Text>
-               Diana es la pesadilla de la que nunca voy a despertar.
+               Somos una empresa profecional y nos guiamos bajo un estándar de calidad elevado .
             </Card.Text>
             <button type="button" className="btn btn-outline-info">Leer más</button>
           </Card.Body>
@@ -40,7 +40,7 @@ const Cards_inicio = () => (
           <Card.Body>
             <Card.Title>Servicios.</Card.Title>
             <Card.Text>
-               Diana es la pesadilla de la que nunca voy a despertar.
+               Conoce nuestro catálogo de servicios.
             </Card.Text>
             <button type="button" className="btn btn-outline-info">Leer más</button>
           </Card.Body>
@@ -53,7 +53,7 @@ const Cards_inicio = () => (
         <Card.Body>
           <Card.Title>Clientes.</Card.Title>
           <Card.Text>
-             Diana es la pesadilla de la que nunca voy a despertar.
+             Si ya eres cliente, conoce tu información aquí.
           </Card.Text>
           <button type="button" className="btn btn-outline-info">Leer más</button>
         </Card.Body>

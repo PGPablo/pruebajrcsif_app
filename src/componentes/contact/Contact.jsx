@@ -52,8 +52,15 @@ const Blog = () => (
         <Form.Group as={Col} controlId="formGridService">
           <Form.Label className="estilo_letra_Gruppo">¿En qué servicio estas intersado?</Form.Label>
           <Form.Control className="estilo_letra_Gruppo" as="select">
-            <option>Servicio 1</option>
-            <option>Servicio 2</option>
+            <option>Asesoría Contable - Fiscal</option>
+            <option>Consultoría Administrativa</option>
+            <option>Administración de Negocios</option>
+            <option>Investigación de Mercados</option>
+            <option>Recursos Humanos</option>
+            <option>Asesoría Legal</option>
+            <option>Marketing</option>
+            <option>Asesoría Financiera</option>
+            <option>Capacitación Empresarial</option>
           </Form.Control>
         </Form.Group>
       </Form.Row>

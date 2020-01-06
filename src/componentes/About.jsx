@@ -15,12 +15,12 @@ const About = () => (
 
         <div id="features" className="container py-4 py-lg-6">
           <div className="row text-center mt-3">
-          <div className="col-3">
+          <div className="col-12">
             <div className="ml-2 container-fluid fondoSeccion">
               <h3 className="estilo_letra_Cinzel color_titulo">¿Quiénes somos?</h3>
             </div>
           </div>
-          <div className="col-9">
+          <div className="col-12">
             <div className="containter-fluid">
               <p className="estilo_letra_Poiret color_letras">
               Ofrecer la mejor experiencia en calidad e innovacion a cada uno de nuestros
