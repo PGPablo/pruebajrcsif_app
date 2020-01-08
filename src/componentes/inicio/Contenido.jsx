@@ -8,7 +8,7 @@
 */
 
 import React from 'react'
-import {Card, Accordion, Jumbotron, Container, Button}  from 'react-bootstrap'
+import {Card, Accordion, Button}  from 'react-bootstrap'
 
 import '../../estilos/Contenido.css'
 
@@ -16,7 +16,7 @@ import d1 from '../../assets/img/d1.jpg'
 import d2 from '../../assets/img/d2.jpg'
 import d3 from '../../assets/img/d3.jpg'
 
-const Cards_inicio = () => (
+const CardsInicio = () => (
 
   <div>
     <div className="contenedor row color-letra estilo_letra_Gruppo">
@@ -96,4 +96,4 @@ const Cards_inicio = () => (
 
 )
 
-export default Cards_inicio
+export default CardsInicio

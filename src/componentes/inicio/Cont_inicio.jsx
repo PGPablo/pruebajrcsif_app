@@ -1,12 +1,12 @@
 import React from 'react'
 
-import Carousel_inicio from './Carousel';
-import Cards_inicio from './Contenido';
+import CarouselInicio from './Carousel';
+import CardsInicio from './Contenido';
 
 const Home = () => (
   <content className="App-content">
-    <Carousel_inicio />
-    <Cards_inicio />
+    <CarouselInicio />
+    <CardsInicio />
   </content>
 )
 

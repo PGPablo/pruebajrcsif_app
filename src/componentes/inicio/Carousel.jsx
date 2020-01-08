@@ -8,7 +8,7 @@
 */
 
 import React from 'react'
-import {Carousel, Button}  from 'react-bootstrap'
+import {Carousel}  from 'react-bootstrap'
 
 import '../../estilos/Carousel.css'
 
@@ -16,7 +16,7 @@ import c1 from '../../assets/img/c1.jpg'
 import c2 from '../../assets/img/c2.jpg'
 import c3 from '../../assets/img/c3.jpg'
 
-const Carousel_inicio = () => (
+const CarouselInicio = () => (
   <div className="centrar_carousel" >
     <Carousel>
 
@@ -46,4 +46,4 @@ const Carousel_inicio = () => (
   </div>
 )
 
-export default Carousel_inicio
+export default CarouselInicio

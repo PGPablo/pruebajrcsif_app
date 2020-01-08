@@ -1,6 +1,5 @@
 // LIBS
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {Card, Button, CardColumns, Accordion}  from 'react-bootstrap'
 
 
