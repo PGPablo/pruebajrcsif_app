@@ -25,6 +25,7 @@
     "sass": "^1.24.3",
     "typescript": "^3.7.4"
   },
+  "homepage":"https://www.jrcsifmexico.com/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
