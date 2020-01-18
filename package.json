@@ -12,10 +12,11 @@
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.4.1",
     "core-js": "^3.6.2",
+    "emailjs-com": "^2.4.1",
     "fibers": "^4.0.2",
     "font-awesome": "^4.7.0",
     "jquery": "^3.4.1",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "react": "^16.12.0",
     "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "^16.12.0",
@@ -25,7 +26,7 @@
     "sass": "^1.24.3",
     "typescript": "^3.7.4"
   },
-  "homepage":"https://www.jrcsifmexico.com/",
+  "homepage": "https://www.jrcsifmexico.com/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -59,6 +60,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/PGPablo/pruebajrcsif_app/issues"
-  },
-  "homepage": "https://github.com/PGPablo/pruebajrcsif_app#readme"
+  }
 }

@@ -12,7 +12,7 @@ const Services = () => (
   		<div class="container">
   			<div class="row">
   				<div class="col-md-12 section-heading text-left ">
-  					<h2 class="interlineado_top left-border to-animate estilo_letra_Cinzel color_titulo to-animate-0">Servicios</h2>
+  					<h2 class="interlineado_top left-border to-animate estilo_letra_Cinzel color_titulo">Servicios</h2>
   					<div class="row">
   						<div class="col-md-8 subtext to-animate">
   							<h3 className="to-animate-0 estilo_letra_Cinzel color_titulo">Dentro del catálogo de servicios presentes en JRC SIF México, puedes encontrar:</h3>

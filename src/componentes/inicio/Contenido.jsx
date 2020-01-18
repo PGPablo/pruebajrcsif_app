@@ -8,7 +8,7 @@
 */
 
 import React from 'react'
-import {Card, Accordion, Button}  from 'react-bootstrap'
+import {Card, Accordion, Button, Nav, CardGroup}  from 'react-bootstrap'
 
 import '../../estilos/Contenido.css'
 
@@ -19,49 +19,48 @@ import d3 from '../../assets/img/d3.jpg'
 const CardsInicio = () => (
 
   <div>
-    <div className="contenedor row color-letra estilo_letra_Gruppo">
-
-      <div className="izquierda">
-        <Card className="diseño_card">
-          <Card.Img variant="top" src={d1} />
-          <Card.Body>
-            <Card.Title>Conocenos.</Card.Title>
-            <Card.Text>
-               Somos una empresa profecional y nos guiamos bajo un estándar de calidad elevado .
-            </Card.Text>
-            <button type="button" className="btn btn-outline-info">Leer más</button>
-          </Card.Body>
-        </Card>
-      </div>
-
-      <div className="centro">
-        <Card className="diseño_card">
-          <Card.Img variant="top" src={d2} />
-          <Card.Body>
-            <Card.Title>Servicios.</Card.Title>
-            <Card.Text>
-               Conoce nuestro catálogo de servicios.
-            </Card.Text>
-            <button type="button" className="btn btn-outline-info">Leer más</button>
-          </Card.Body>
-        </Card>
-      </div>
-
-      <div className="derecha">
+    <CardGroup className="color-letra estilo_letra_Gruppo">
       <Card className="diseño_card">
-        <Card.Img variant="top" src={d3} />
+        <Card.Img variant="top" className="tamaño-img-card" src={d1} />
         <Card.Body>
-          <Card.Title>Clientes.</Card.Title>
+          <Card.Title>Conocenos</Card.Title>
           <Card.Text>
-             Si ya eres cliente, conoce tu información aquí.
+          Somos una empresa que trabaja con base en altos estándares de calidad y
+          profesionalismo.
           </Card.Text>
-          <button type="button" className="btn btn-outline-info">Leer más</button>
+          <Nav.Link href="/about" type="button" className="btn btn-outline-info boton-card-inico">Leer más</Nav.Link>
         </Card.Body>
+        <Card.Footer>
+          <small className="text-muted">Actualizado 16/01/2020</small>
+        </Card.Footer>
       </Card>
-      </div>
-    </div>
-
-
+      <Card className="diseño_card">
+        <Card.Img variant="top"  className="tamaño-img-card" src={d2} />
+        <Card.Body>
+          <Card.Title>Servicios</Card.Title>
+          <Card.Text>
+            Conoce nuestro catálogo de servicios.
+          </Card.Text>
+          <Nav.Link href="/services" type="button" className="btn btn-outline-info boton-card-inico">Leer más</Nav.Link>
+        </Card.Body>
+        <Card.Footer>
+          <small className="text-muted ">Actualizado 16/01/2020</small>
+        </Card.Footer>
+      </Card>
+      <Card className="diseño_card">
+        <Card.Img variant="top" className="tamaño-img-card" src={d3} />
+        <Card.Body>
+          <Card.Title>Clientes </Card.Title>
+          <Card.Text>
+            Si ya eres cliente, consulta tu información aquí.
+          </Card.Text>
+        </Card.Body>
+        <Nav.Link href="/" type="button" className="btn btn-outline-info boton-card-inico">Leer más</Nav.Link>
+        <Card.Footer>
+          <small className="text-muted">Actualizado 16/01/2020</small>
+        </Card.Footer>
+      </Card>
+    </CardGroup>
 
 
     <Accordion defaultActiveKey="0" className="tamaño_acordion">

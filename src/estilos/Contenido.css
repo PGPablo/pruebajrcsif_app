@@ -11,7 +11,7 @@
 }
 
 .diseño_card{
-  background-color: yellow;
+  background-color: #FFFFFF;
   padding: 30px;
   margin: 30px;
   margin-left: 46px;
@@ -21,6 +21,16 @@
   display: inline-block;
   width: 18rem;
   border: 0px !important;
+}
+
+.tamaño-img-card{
+  width: 50%;
+  height: 50%;
+}
+
+.boton-card-inico{
+  margin-bottom: 10%;
+  width: 40%;
 }
 
 .contenedor{
@@ -54,12 +64,12 @@
 .img_acordion_1{
   background-image: url("../assets/img/g2.png");
   background-size: 100% 100%;
-  height: 175px;
+  height: 230px;
 }
 .img_acordion_2{
   background-image: url("../assets/img/g5.png");
   background-size: 100% 100%;
-  height: 175px;
+  height: 230px;
 }
 
 .boton_acordion{

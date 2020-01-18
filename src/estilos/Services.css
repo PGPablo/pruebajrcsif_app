@@ -2,7 +2,7 @@
 
 }
 .to-animate-0:hover{
-  background-color: rgb(215, 239, 251);
+  background-color: rgb(251, 215, 215);
   background-size: 100% 100%;
   color: #185373 !important;
 }
@@ -16,7 +16,7 @@
   text-align: center;
 }
 .to-animate-1:hover{
-  background-color: rgb(237, 249, 255);
+  background-color: rgb(237, 254, 255);
   background-size: 100% 100%;
   color: #350b4a !important;
   text-align: center;
