@@ -9,7 +9,6 @@ import Home from './componentes/inicio/Cont_inicio';
 import About from './componentes/About';
 import Services from './componentes/Services';
 import Blog from './componentes/blog/blog';
-import Contact from './componentes/contact/Contact'
 import Clients from './componentes/clients/Clients';
 
 import ContactUs from './componentes/contact/emailjs'

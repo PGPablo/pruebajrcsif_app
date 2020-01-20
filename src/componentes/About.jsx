@@ -34,7 +34,12 @@ const About = () => (
         </div>
           <div id="features" className="container py-4 py-lg-6">
             <div className="row text-center mt-3">
-              <div className="col-9">
+              <div className="col-12">
+                <div className="ml-2 container-fluid fondoSeccion">
+                  <h3 className="estilo_letra_Cinzel color_titulo">¿A dónde queremos llegar?</h3>
+                </div>
+              </div>
+              <div className="col-12">
                 <div className="containter-fluid">
                   <p className="estilo_letra_Poiret color_letras">
                   Nuestro proposito es ofrecer la mejor experiencia en calidad e innovacion a cada uno de nuestros
@@ -43,11 +48,6 @@ const About = () => (
                     servicio integral y ser una empresa comprometida con la mejora constante,
                     brindando satisfacción y confianza a nuestros clientes.
                   </p>
-                </div>
-              </div>
-              <div className="col-3">
-                <div className="ml-2 container-fluid fondoSeccion">
-                  <h3 className="estilo_letra_Cinzel color_titulo">¿A dónde queremos llegar?</h3>
                 </div>
               </div>
             </div>

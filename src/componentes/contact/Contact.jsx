@@ -21,9 +21,9 @@ const Blog = () => (
 
       </Form.Row>
 
-      <Form.Group controlId="formGridAddress1">
-        <Form.Label className="estilo_letra_Gruppo">Dirección</Form.Label>
-        <Form.Control className="estilo_letra_Gruppo" placeholder="1234 Main St (información no requerida)" />
+      <Form.Group as={Col} controlId="formGridCity">
+        <Form.Label className="estilo_letra_Gruppo">Télefono</Form.Label>
+        <Form.Control className="estilo_letra_Gruppo" placeholder="461 123 4567" />
       </Form.Group>
 
       <Form.Row>
@@ -40,10 +40,6 @@ const Blog = () => (
           </Form.Control>
         </Form.Group>
 
-        <Form.Group as={Col} controlId="formGridCity">
-          <Form.Label className="estilo_letra_Gruppo">Télefono</Form.Label>
-          <Form.Control className="estilo_letra_Gruppo" placeholder="461 123 4567" />
-        </Form.Group>
 
       </Form.Row>
 
@@ -69,8 +65,6 @@ const Blog = () => (
           Mandar información
         </Button>
       </Form.Row>
-
-
     </Form>
   </div>
 )
