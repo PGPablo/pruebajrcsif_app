@@ -23,7 +23,7 @@ import '../../estilos/Contactbar.css'
       <div className="derecha">
         <span className="navbar-text">
           <FontAwesomeIcon icon={['fas', 'envelope']} />
-          <a href="mailto:servicios@jrcsifmexico.com" className="color-letra"> servicios@jrcsifmexico.com</a> &nbsp;| &nbsp;
+          <a href="mailto:info@jrcsifmexico.com" className="color-letra"> info@jrcsifmexico.com</a> &nbsp;| &nbsp;
         </span>
         <span className="navbar-text">
           <FontAwesomeIcon icon={['fas', 'phone']} />

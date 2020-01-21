@@ -71,7 +71,18 @@ const CardsInicio = () => (
           </Accordion.Toggle>
         </Card.Header>
         <Accordion.Collapse eventKey="0">
-          <Card.Body className="estilo_letra_Gruppo">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</Card.Body>
+          <Card.Body className="estilo_letra_Gruppo">
+          1. Arrendamiento. <br />
+          2. Estímulos fiscales. <br />
+          3. Eliminación de la compensación universal en el CFF y la LIVA. <br />
+          4. Plataformas digitales. <br />
+          5. Régimen del sector primario (Agapes). <br />
+          6. Ventas a través de terceros por catalogo. <br />
+          7. Constancia de retenciones. <br />
+          8. RIF para servicios de plataformas tecnológicas. <br />
+          9. Arrendamiento de inmuebles. <br />
+          10. Fiscalización al outsourcing. <br />
+          </Card.Body>
         </Accordion.Collapse>
       </Card>
       <Card className="card_margen">
@@ -81,7 +92,9 @@ const CardsInicio = () => (
           </Accordion.Toggle>
         </Card.Header>
         <Accordion.Collapse eventKey="1">
-        <Card.Body className="estilo_letra_Gruppo">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</Card.Body>
+          <Card.Body className="estilo_letra_Gruppo">
+            El consejo de representantes de la Comisión Nacional de Salarios Mínimos (Conasami), que es el organismo público descentralizado encargado de aprobar los salarios mínimos, aprobó incrementar el salario mínimo que se encontraba fijado de 102.68 pesos, en 5% y 14.67 pesos adicionales como parte del monto independiente de recuperación (MIR). Así, este año corriente el salario mínimo será de 123.22 pesos, lo que implica un aumento total del 20%.
+          </Card.Body>
         </Accordion.Collapse>
       </Card>
     </Accordion>

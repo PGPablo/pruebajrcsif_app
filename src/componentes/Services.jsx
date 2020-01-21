@@ -30,7 +30,7 @@ proporcionando información oportuna y eficiente. Hoy en día nos
 encontramos en un constante cambio por lo cual ofrecemos
 estrategias fiscales debidamente fundamentadas para optimizar la
 carga financiera de su negocio</p>
-            <Button className="estilo_boton" variant="outline-info">Contacto</Button>
+            <Button href="/contact" className="estilo_boton estilo_letra_Gruppo" variant="outline-info">Contacto</Button>
           </div>
   				<div class="col-md-6 col-sm-6 fh5co-service to-animate-2 interlineado">
   					<h3 className="interlineado_top opacidad estilo_letra_Cinzel color_titulo">Administración de Negocios.</h3>
@@ -38,7 +38,7 @@ carga financiera de su negocio</p>
 recursos , para obtener un máximo rendimiento de su capital
 humano, recursos financieros , materiales y tecnológicos , De esta
 manera ayudarlo al logro de sus objetivos.</p>
-            <Button className="estilo_boton" variant="outline-info">Contacto</Button>
+            <Button href="/contact" className="estilo_boton estilo_letra_Gruppo" variant="outline-info">Contacto</Button>
           </div>
 
   				<div class="clearfix visible-sm-block"></div>
@@ -51,7 +51,7 @@ internacionales, garantizando su efectividad de acuerdo a las
 diferentes variables del mercado. Obteniendo información estadística
 para la toma de decisiones en futuras inversiones.
 </p>
-            <Button variant="outline-info">Info</Button>
+            <Button href="/contact" variant="outline-info estilo_letra_Gruppo">Contact</Button>
           </div>
   				<div class="col-md-6 col-sm-6 fh5co-service to-animate-4 interlineado">
             <h3 className="interlineado_top opacidad estilo_letra_Cinzel color_titulo">Consultoría Administrativa</h3>
@@ -61,7 +61,7 @@ el trayecto, brindándoles manuales de organización en conjunto con
 un control interno, analizando sus procesos y realizando una re
 estructuración corporativa de ser necesario.
 </p>
-            <Button className="estilo_boton" variant="outline-info">Contacto</Button>
+            <Button href="/contact" className="estilo_boton estilo_letra_Gruppo" variant="outline-info">Contacto</Button>
           </div>
 
           <div class="clearfix visible-sm-block"></div>
@@ -75,7 +75,7 @@ motivación.Creamos de acuerdo a sus necesidades estrategias
 salariales, beneficios y prestaciones de sus empleados, con todo lo
 que conlleva y procurando la satisfacción de los trabajadores en pro
 de la empresa.</p>
-            <Button className="estilo_boton" variant="outline-info">Contacto</Button>
+            <Button href="/contact" className="estilo_boton estilo_letra_Gruppo" variant="outline-info">Contacto</Button>
           </div>
           <div class="col-md-6 col-sm-6 fh5co-service to-animate-6 interlineado">
   					<h3 className="interlineado_top opacidad estilo_letra_Cinzel color_titulo">Asesoría Legal.</h3>
@@ -86,7 +86,7 @@ Permaneciendo siempre dentro de un marco legal y de
 confidencialidad brindando la seguridad y tranquilidad que se
 merecen nuestros clientes.
 </p>
-            <Button className="estilo_boton" variant="outline-info">Contacto</Button>
+            <Button href="/contact" className="estilo_boton estilo_letra_Gruppo" variant="outline-info">Contacto</Button>
           </div>
 
           <div class="clearfix visible-sm-block"></div>
@@ -98,7 +98,7 @@ usuario final, gestionamos las actividades necesarias para lograr
 posicionarnos en la mente del comprador esto considerando el
 comportamiento de mercados , usuarios y/o consumidores.
 </p>
-            <Button className="estilo_boton" variant="outline-info">Contacto</Button>
+            <Button href="/contact" className="estilo_boton estilo_letra_Gruppo" variant="outline-info">Contacto</Button>
           </div>
           <div class="col-md-6 col-sm-6 fh5co-service to-animate-8 interlineado">
   					<h3 className="interlineado_top opacidad estilo_letra_Cinzel color_titulo">Asesoría Financiera.</h3>
@@ -107,7 +107,7 @@ que permita evaluar el desenvolvimiento de la empresa
 proporcionando elementos para estimar el comportamiento futuro
 de los flujos de efectivo.
 </p>
-            <Button className="estilo_boton" variant="outline-info">Contacto</Button>
+            <Button href="/contact" className="estilo_boton estilo_letra_Gruppo" variant="outline-info">Contacto</Button>
           </div>
           <div class="clearfix visible-sm-block"></div>
 
@@ -118,7 +118,7 @@ directivos , mandos medios, lideres y todo aquel personal que lo
 requiera. Con el propósito de mejorar los conocimientos, actitudes
 y/o capacidades profesionales para incrementar el desempeño de
 las actividades dentro de la organización.</p>
-            <Button className="estilo_boton" variant="outline-info">Contacto</Button>
+            <Button href="/contact" className="estilo_boton estilo_letra_Gruppo" variant="outline-info">Contacto</Button>
           </div>
 
   			</div>

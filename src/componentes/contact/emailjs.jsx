@@ -19,40 +19,23 @@ export default function ContactUs() {
     <div>
       <div className="container border shadow mt-4">
         <Form onSubmit={sendEmail}>
-          <h2 className="estilo_letra_Cinzel color_titulo">Dejanos tu información, nosotros nos pondremos en contacto.</h2>
+          <h2 className="estilo_letra_Cinzel color_titulo">Déjanos tu información, nosotros nos pondremos en contacto.</h2>
           <Form.Row className="estilo_letra_Gruppo">
             <Form.Group as={Col}>
-              <Form.Label>Nombre completo</Form.Label>
-              <Form.Control type="text" placeholder="Nombre completo" name="var_nombre"/>
+              <Form.Label>Nombre complet</Form.Label>
+              <Form.Control type="text" placeholder="Nombre completo" name="var_nombre" required/>
             </Form.Group>
             <Form.Group as={Col}>
               <Form.Label>Correo electronico</Form.Label>
-              <Form.Control type="email" placeholder="Enter email" name="var_correo"/>
+              <Form.Control type="email" placeholder="Enter email" name="var_correo" required/>
             </Form.Group>
 
           </Form.Row>
 
           <Form.Group as={Col}>
             <Form.Label className="estilo_letra_Gruppo">Télefono</Form.Label>
-            <Form.Control className="estilo_letra_Gruppo" placeholder="461 123 4567" name="var_telefono"/>
+            <Form.Control className="estilo_letra_Gruppo" placeholder="461 123 4567" name="var_telefono" required/>
           </Form.Group>
-
-          <Form.Row>
-            <Form.Group as={Col}>
-              <Form.Label className="estilo_letra_Gruppo">Ciudad</Form.Label>
-              <Form.Control className="estilo_letra_Gruppo" placeholder="Celaya" name="var_ciudad"/>
-            </Form.Group>
-
-            <Form.Group as={Col}>
-              <Form.Label className="estilo_letra_Gruppo">Estado</Form.Label>
-              <Form.Control className="estilo_letra_Gruppo" as="select" name="var_estado">
-                <option>Guanajuato...</option>
-                <option>...</option>
-              </Form.Control>
-            </Form.Group>
-
-
-          </Form.Row>
 
           <Form.Row>
             <Form.Group as={Col}>
@@ -69,6 +52,14 @@ export default function ContactUs() {
                 <option>Capacitación Empresarial</option>
               </Form.Control>
             </Form.Group>
+          </Form.Row>
+
+          <Form.Row>
+            <Form.Group as={Col}>
+              <Form.Label className="estilo_letra_Gruppo">¿Quieres dejar algún mensaje? (Opcional)</Form.Label>
+              <Form.Control className="estilo_letra_Gruppo" placeholder="Mensaje" name="var_mensaje"/>
+            </Form.Group>
+
           </Form.Row>
 
           <Form.Row className="boton_centrado">
