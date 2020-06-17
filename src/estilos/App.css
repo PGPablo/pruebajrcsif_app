@@ -20,7 +20,9 @@
 }
 /* usar */
 .estilo_letra_Gruppo{
-  font-family: 'Gruppo', cursive;
+  font-family: 'Gruppo';
+  font-weight: bold;
+  font-size: 16px;
 }
 /* usar */
 .estilo_letra_Sans{
@@ -45,6 +47,8 @@
 
 .estilo_letra_Poiret{
   font-family: 'Poiret One', cursive;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 .estilo_letra_Pompiere{

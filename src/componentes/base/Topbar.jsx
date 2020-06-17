@@ -17,8 +17,8 @@ const Topbar = () => (
   <div className="sticky-top container-fluid text-white p-2 text-right text-xs color_barra">
 
   <Navbar className="contenido_inicial" expand="lg">
-    <Navbar.Brand href="#home" className="letras_logo">
-      <h4 className="estilo_letra_Montserrat"> JRC SIF México S.C. </h4>
+    <Navbar.Brand href="/home" className="letras_logo">
+      <h4 className="estilo_letra_Montserrat"><b> JRC SIF México S.C. </b></h4>
     </Navbar.Brand>
 
     <Navbar.Collapse>
@@ -28,7 +28,7 @@ const Topbar = () => (
         <Nav.Link href="/services" className="letras_menu estilo_letra_Gruppo letras_menu_3">Nuestros servicios</Nav.Link>
         <Nav.Link href="/blog" className="letras_menu estilo_letra_Gruppo letras_menu_4">Blog</Nav.Link>
         <Nav.Link href="/contact" className="letras_menu estilo_letra_Gruppo letras_menu_5">Contacto</Nav.Link>
-        <Nav.Link href="/" className="letras_menu estilo_letra_Gruppo letras_menu_6">Clientes</Nav.Link>
+        <Nav.Link href="/login" className="letras_menu estilo_letra_Gruppo letras_menu_6">Clientes</Nav.Link>
       </Nav>
     </Navbar.Collapse>
 

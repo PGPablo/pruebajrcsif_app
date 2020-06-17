@@ -15,6 +15,16 @@
   border-radius: 0;
 }
 
+.contenedor_card_unica{
+  height: 300px;
+}
+
+.contenedor_card{
+  column-count: 2 !important;
+}
+
+
+
 .estilo_card{
   background-color: rgb(255, 255, 255) !important;
   border-color: rgba(213, 218, 48, 0) !important;
@@ -22,8 +32,12 @@
 }
 
 .estilo_card:hover{
-  background-color: rgb(24, 83, 131) !important;
-  color: #ffffff !important;
+  background-color: rgb(193, 220, 241) !important;
+  color: #0c2546 !important;
+}
+
+.estilo_boton_card{
+  width: 50%;
 }
 
 .card_acordion{

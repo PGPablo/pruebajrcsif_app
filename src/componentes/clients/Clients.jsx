@@ -1,75 +1,56 @@
 // LIBS
 import React from 'react'
-import {Form, Button, Table}  from 'react-bootstrap'
+import moment from 'moment'
+import {ArchivosContext} from '../../context/archivos'
+import {Table, Button}  from 'react-bootstrap'
 
-// ASSETS
-import '../../estilos/Blog.css'
+class Clients extends React.Component {
+    render(){
+        const {
+            archivos,
+        } = this.context
 
-const Blog = () => (
-  <div className="container border shadow mt-4">
-    <Form>
-      <Form.Group controlId="formGroupEmail">
-        <Form.Label>Correo electronico</Form.Label>
-        <Form.Control type="email" placeholder="Enter email" />
-      </Form.Group>
-      <Form.Group controlId="formGroupPassword">
-        <Form.Label>Contraseña</Form.Label>
-        <Form.Control type="password" placeholder="Password" />
-      </Form.Group>
-      <Button variant="primary" type="submit">
-      Submit
-      </Button>
-    </Form>
+        return(
+            <div className="container border shadow mt-4">
+                <div className="titulo_clientes_tabla"> 
+                    <h2>Bienvenido a su gestor de información.</h2>
+                    <h4>Usted tiene {archivos.length} archivos.</h4>
 
-    <hr /><br /><br /><br />
+                </div>
+                <div className="botones_filtros">
 
-    <h2> Bienvenido Pablo Pérez </h2>
-    <h4>Aqui tienes tus documentos </h4>
-    <Table responsive>
-      <thead>
-        <tr>
-          <th>#</th>
-          <th>Nombre del archivo</th>
-          <th>Tipo de archivo</th>
-          <th>Fecha de subida</th>
-          <th>Cualquier otra cosa</th>
-          <th>Descarga</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>1</td>
-          <td>Table cell</td>
-          <td>Table cell</td>
-          <td>Table cell</td>
-          <td>Table cell</td>
-          <td><Button variant="info" type="submit">
-          Descargar
-          </Button></td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>Table cell</td>
-          <td>Table cell</td>
-          <td>Table cell</td>
-          <td>Table cell</td>
-          <td><Button variant="info" type="submit">
-          Descargar
-          </Button></td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>Table cell</td>
-          <td>Table cell</td>
-          <td>Table cell</td>
-          <td>Table cell</td>
-          <td><Button variant="info" type="submit">
-          Descargar
-          </Button></td>
-        </tr>
-      </tbody>
-    </Table>
-  </div>
-)
+                </div>
+                <div>
+                    <Table striped bordered hover >
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Tipo</th>
+                                <th>Fecha</th>
+                                <th>Subido por</th>
+                                <th>Opciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {archivos.map((archivo) =>{
+                                return (
+                                    <tr key={archivo.id}>
+                                        <td>{archivo.nombre}</td>
+                                        <td>{archivo.tipo}</td>
+                                        <td>{moment(archivo.fecha.seconds).format('DD/MM/YYYY hh:mm a')}</td>
+                                        <td>{archivo.subidopor}</td>
+                                        <td> <Button variant="success" href={archivo.archivo}>Descargar</Button> </td>
+                                    </tr>
+                                )
+                            })}
+                        </tbody>
 
-export default Blog
+                    </Table>
+                </div>
+            </div>
+        )
+    }
+}
+
+Clients.contextType = ArchivosContext
+export default Clients

@@ -7,7 +7,10 @@
 }
 
 .letras_logo{
-  color: #05172e !important;
+  color: #ffffff !important;
+}
+.letras_logo:hover{
+  color: #c7a1c8 !important;
 }
 
 .letras_menu{
