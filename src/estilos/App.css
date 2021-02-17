@@ -24,6 +24,11 @@
   font-weight: bold;
   font-size: 16px;
 }
+.estilo_letra_Gruppo_24{
+  font-family: 'Gruppo';
+  font-weight: bold;
+  font-size: 24px;
+}
 /* usar */
 .estilo_letra_Sans{
   font-family: 'Josefin Sans', sans-serif;

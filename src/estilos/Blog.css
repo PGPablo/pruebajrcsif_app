@@ -1,4 +1,12 @@
-.posicion_jumbo{
+.fondo_logo_blog{
+  background-image: linear-gradient(
+    130deg,
+    rgba(187, 181, 236, 0.8) 0%,
+    rgba(255, 255, 255, 0.8) 90%
+    );
+  width: 100%;
+  height: 200px;
+  text-align: center;
 }
 
 .color_interno_jumbo{
@@ -10,29 +18,25 @@
   margin-bottom: 3%;
 }
 
-.sin_borders{
-  border-color: rgba(221, 11, 230, 0);
-  border-radius: 0;
-}
-
 .contenedor_card_unica{
   height: 300px;
 }
 
 .contenedor_card{
-  column-count: 2 !important;
 }
 
 
 
 .estilo_card{
   background-color: rgb(255, 255, 255) !important;
-  border-color: rgba(213, 218, 48, 0) !important;
+  border-color: rgb(223, 157, 243) !important;
+  border-radius: 0;
   color: rgb(24, 83, 131);
+  transition: all 1s;
 }
 
 .estilo_card:hover{
-  background-color: rgb(193, 220, 241) !important;
+  background-color: rgb(246, 228, 247) !important;
   color: #0c2546 !important;
 }
 
@@ -56,5 +60,8 @@
   .borde_acordion{
     margin-top: 5%;
     margin-bottom: 5%;
+  }
+  .contenedor_card{
+    column-count: 1 !important;
   }
 }

@@ -65,10 +65,18 @@
 
 .card_margen{
    margin: 5%;
+   border-color: rgba(255,255,255, 0) !important;
+}
+
+.tamaño-img-banner{
+  width: 70% !important;
+  height: auto;
+  margin: auto;
 }
 
 .tamaño_acordion{
    width: 100%;
+   
 }
 
 .titulo_acordion{

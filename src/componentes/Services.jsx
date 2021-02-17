@@ -7,8 +7,14 @@ import '../estilos/Services.css'
 
 const Services = () => (
   <div className="container border shadow mt-4 pl-0 pr-0">
+
+
   <div className="w-100 fondo_logo_services">
+    <h1 className="Services_Titulo" >Servicios</h1>
+    <h3 className="Services_Subtitulo" >Dentro de nuestro catálogo de servicios puedes encontrar:</h3>
   </div>
+
+
     <section id="fh5co-services" data-section="services">
   		<div className="container">
 

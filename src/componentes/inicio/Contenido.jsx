@@ -8,116 +8,83 @@
 */
 
 import React from 'react'
-import {Card, Accordion, Button, Nav, CardGroup}  from 'react-bootstrap'
-import ScrollAnimation from 'react-animate-on-scroll';
+import { Card, Accordion, Button, CardGroup } from 'react-bootstrap'
+import moment from 'moment'
 
 import '../../estilos/Contenido.css'
 
-import d1 from '../../assets/img/d1.jpg'
-import d2 from '../../assets/img/d2.jpg'
-import d3 from '../../assets/img/d3.jpg'
+import { useSelector } from 'react-redux'
 
-const CardsInicio = () => (
+const CardsInicio = () => {
 
-  <div>
-    <CardGroup className="color-letra estilo_letra_Gruppo">
-      <Card className="diseño_card">
-        <ScrollAnimation animateIn="fadeInDown">
-          <Card.Img variant="top" className="tamaño-img-card" src={d1} />
-        </ScrollAnimation>
+  const cards = useSelector(store => store.cards.listaCards)
+  const banners = useSelector(store => store.banners.listaBanners)
 
-        <Card.Body>
-          <Card.Title>Conocenos</Card.Title>
-          <Card.Text>
-          Somos una empresa que trabaja con base en altos estándares de calidad y
-          profesionalismo.
-          </Card.Text>
-          <Nav.Link href="/about" type="button" className="btn btn-outline-info boton-card-inico borde_boton_card">Leer más</Nav.Link>
-        </Card.Body>
-        <Card.Footer className="color_footer_card">
-          <small className="text-muted">Actualizado 16/01/2020</small>
-        </Card.Footer>
-      </Card>
-      <Card className="diseño_card">
-        <ScrollAnimation animateIn="fadeInDown">
-          <Card.Img variant="top"  className="tamaño-img-card" src={d2} />
-        </ScrollAnimation>
-        <Card.Body>
-          <Card.Title>Servicios</Card.Title>
-          <Card.Text>
-            Conoce nuestro catálogo de servicios.
-          </Card.Text>
-          <Nav.Link href="/services" type="button" className="btn btn-outline-info boton-card-inico borde_boton_card">Leer más</Nav.Link>
-        </Card.Body>
-        <Card.Footer className="color_footer_card">
-          <small className="text-muted ">Actualizado 16/01/2020</small>
-        </Card.Footer>
-      </Card>
-      <Card className="diseño_card">
-        <ScrollAnimation animateIn="fadeInDown">
-          <Card.Img variant="top" className="tamaño-img-card" src={d3} />
-        </ScrollAnimation>
-        <Card.Body>
-          <Card.Title>Clientes </Card.Title>
-          <Card.Text>
-            Si ya eres cliente, consulta tu información aquí.
-          </Card.Text>
-        </Card.Body>
-        <Nav.Link href="/" type="button" className="btn btn-outline-info boton-card-inico borde_boton_card">Leer más</Nav.Link>
-        <Card.Footer className="color_footer_card">
-          <small className="text-muted">Actualizado 16/01/2020</small>
-        </Card.Footer>
-      </Card>
-    </CardGroup>
+  return (
+    <div>
+      
+      <CardGroup className="color-letra estilo_letra_Gruppo">
+
+        {
+          cards ? (cards.map(row => {
+            return(
+              <Card className="diseño_card">
+                  <Card.Img variant="top" className="tamaño-img-card" src={row.imagenurl} />
+
+                <Card.Body className="mt-5 mb-5">
+                  <Card.Title>{row.titulo}</Card.Title>
+                  <Card.Text>
+                    {row.contenido}
+                  </Card.Text>
+                </Card.Body>
+                <Card.Footer className="color_footer_card">
+                  <small className="text-muted">Actualizado {moment(row.fecha).format('DD/MM/YYYY hh:mm a')}</small>
+                </Card.Footer>
+              </Card>
+            )
+          })) : 
+          (
+            <div className="" >
+            </div>
+          )
+        }
+
+      </CardGroup>
 
 
-    <Accordion defaultActiveKey="0" className="tamaño_acordion">
-      <ScrollAnimation animateIn="flipInX">
-        <Card className="card_margen">
-          <Card.Header className="img_acordion_1">
-            <Accordion.Toggle as={Button} variant="link" eventKey="0" className="boton_acordion estilo_letra_Cinzel">
-              Click aquí!
-            </Accordion.Toggle>
-          </Card.Header>
-          <Accordion.Collapse eventKey="0">
-            <Card.Body className="estilo_letra_Gruppo">
-            1. Arrendamiento. <br />
-            2. Estímulos fiscales. <br />
-            3. Eliminación de la compensación universal en el CFF y la LIVA. <br />
-            4. Plataformas digitales. <br />
-            5. Régimen del sector primario (Agapes). <br />
-            6. Ventas a través de terceros por catalogo. <br />
-            7. Constancia de retenciones. <br />
-            8. RIF para servicios de plataformas tecnológicas. <br />
-            9. Arrendamiento de inmuebles. <br />
-            10. Fiscalización al outsourcing. <br />
-            </Card.Body>
-          </Accordion.Collapse>
-        </Card>
-      </ScrollAnimation>
-      <ScrollAnimation animateIn="flipInY" duration={2000}>
-        <Card className="card_margen">
-          <Card.Header className="img_acordion_2">
-            <Accordion.Toggle as={Button} variant="link" eventKey="1" className="boton_acordion estilo_letra_Cinzel">
-              Click aquí!
-            </Accordion.Toggle>
-          </Card.Header>
-          <Accordion.Collapse eventKey="1">
-            <Card.Body className="estilo_letra_Gruppo">
-              El consejo de representantes de la Comisión Nacional de Salarios Mínimos (Conasami), que es el organismo público descentralizado encargado de aprobar los salarios mínimos, aprobó incrementar el salario mínimo que se encontraba fijado de 102.68 pesos, en 5% y 14.67 pesos adicionales como parte del monto independiente de recuperación (MIR). Así, este año corriente el salario mínimo será de 123.22 pesos, lo que implica un aumento total del 20%.
-            </Card.Body>
-          </Accordion.Collapse>
-        </Card>
-      </ScrollAnimation>
-    </Accordion>
+      <Accordion defaultActiveKey="0" className="tamaño_acordion">
 
-  </div>
+        {
+          banners ? (banners.map( row => {
 
+            return(
+              <Card className="card_margen" key={row.id}>
+                <Card.Img variant="top" className="tamaño-img-banner" src={row.imagenurl} />
+                  <Accordion.Toggle as={Button} variant="link" eventKey={row.id} className="boton_acordion estilo_letra_Cinzel">
+                    Click aquí!
+                  </Accordion.Toggle>
+                <Accordion.Collapse eventKey={row.id}>
+                  <Card.Body className="estilo_letra_Gruppo_24">
+                  { row.contenido }
+                  </Card.Body>
+                </Accordion.Collapse>
+              </Card>
+            )
 
+          })) : 
+          (
+            <div className="" >
+            </div>
+          )
 
+        }
+        
 
+      </Accordion>
 
+    </div>
+  )
 
-)
+}
 
 export default CardsInicio

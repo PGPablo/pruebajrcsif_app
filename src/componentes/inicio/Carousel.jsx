@@ -8,42 +8,47 @@
 */
 
 import React from 'react'
-import {Carousel}  from 'react-bootstrap'
-import ScrollAnimation from 'react-animate-on-scroll';
+import { Carousel } from 'react-bootstrap'
 
 import '../../estilos/Carousel.css'
 
-import c1 from '../../assets/img/s1.jpg'
-import c2 from '../../assets/img/s2.jpg'
-import c3 from '../../assets/img/s3.jpg'
+import { useSelector } from 'react-redux'
 
-const CarouselInicio = () => (
-  <div className="centrar_carousel" >
-    <ScrollAnimation animateIn="bounceInRight" >
-      <Carousel>
-        <Carousel.Item>
-          <img className="d-block w-100 img_carousel"
-            src={c1}
-            alt="Third slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100 img_carousel"
-            src={c2}
-            alt="Third slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100 img_carousel"
-            src={c3}
-            alt="Third slide"
-          />
-        </Carousel.Item>
-      </Carousel>
-    </ScrollAnimation>
+const CarouselInicio = () => {
+
+  const sliders = useSelector(store => store.sliders.listaSliders)
 
 
-  </div>
-)
+  return (
+
+    <div className="centrar_carousel" >
+        <Carousel>
+
+          {
+
+            sliders ? (sliders.map(row => {
+              return (
+                <Carousel.Item key={row.id}>
+                  <img className="d-block w-100 img_carousel"
+                    src={row.imagenurl}
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+              )
+            }))  : 
+            (
+              <div className="spinner-grow text-danger m-5" role="status">
+                <span className="sr-only">Loading...</span>
+              </div>
+            )
+
+
+          }
+
+        </Carousel>
+        </div>
+  )
+
+}
 
 export default CarouselInicio
